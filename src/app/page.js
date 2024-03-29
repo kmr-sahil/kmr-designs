@@ -1,19 +1,22 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
+import Work from '@/components/Work';
+import Testimonials from '@/components/Testimonials';
+import Process from '@/components/Process';
+import Pricing from '@/components/Pricing';
+import FAQs from '@/components/FAQs';
 
 function page() {
+
+    
+
   return (
 
-    <div className='p-[1rem] flex flex-col gap-[4rem]'>
+    <div className='max-w-[40rem] mx-auto p-[1rem] flex flex-col gap-[4rem]'>
 
-      <nav className='flex justify-between items-center'>
-
-          <Image src={'/logo.png'} width={38} height={10} alt='logo' />
-
-          <Link href={'facebook.com'} className='px-[1rem] py-[0.5rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>Book a Call</Link>
-
-      </nav>
+      <Navbar />
 
       <section className='mt-[1.5rem] flex flex-col justify-center items-center gap-[1.5rem]'>
 
@@ -25,107 +28,15 @@ function page() {
 
       </section>
 
-      <div className='overflow-x-auto scrollbar-hide'>
-
-          <div className='w-[100%] flex justify-start items-center gap-[1rem] p-[0.15rem] animate-loop-scroll'>
-
-            <div className='flex-shrink-0 w-[15rem] h-[15rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-              1
-            </div>
-
-            <div className='flex-shrink-0 w-[15rem] h-[15rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-                2
-            </div>
-
-            <div className='flex-shrink-0 w-[15rem] h-[15rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-                3
-            </div>
-
-            <div className='flex-shrink-0 w-[15rem] h-[15rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-                  4
-            </div>
-
-            <div className='flex-shrink-0 w-[15rem] h-[15rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-                      5
-            </div>
+    <Work />
       
-      </div>
+    <Testimonials />
 
-    </div>
-      
-    <div className='flex flex-col justify-center items-center gap-[0.75rem]'>
+    <Process />
 
-        <h2 className='text-[20px] font-bold text-center leading-tight my-[1rem]'>Hear from individuals we have worked with</h2>
+    <Pricing />
 
-        <div className='flex-shrink-0 w-[100%] h-[5rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-
-        </div>
-
-        <div className='flex-shrink-0 w-[100%] h-[5rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-
-        </div>
-
-        <div className='flex-shrink-0 w-[100%] h-[5rem] rounded-[8px] outline outline-[1px] outline-[#131313]'>
-
-        </div>
-
-    </div>
-
-    <div className='flex flex-col justify-center items-center gap-[0.75rem]'>
-
-      <h2 className='text-[20px] font-bold text-center leading-tight'>How we work</h2>
-
-      <h3 className='text-[12px] px-[1rem] mb-[0.75rem] font-light tracking-tight leading-tight text-center'>We explore your industry thoroughly, studying competitors to find unique opportunities.</h3>
-
-      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center'>
-
-          <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
-
-              <div className='bg-[#131313] bg-opacity-80 rounded-full w-[40px] h-[40px] text-[20px] font-bold text-white text-center flex items-center justify-center'>
-                  1
-              </div>
-
-          </div>
-
-          <h3 className='text-[20px] font-bold mt-[1rem]'>Research</h3>
-
-          <p className='text-[12px] font-light text-center'>We explore your industry thoroughly, studying competitors to find unique opportunities.</p>
-
-      </div>
-
-      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center'>
-
-          <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
-
-              <div className='bg-[#131313] bg-opacity-80 rounded-full w-[40px] h-[40px] text-[20px] font-bold text-white text-center flex items-center justify-center'>
-                  1
-              </div>
-
-          </div>
-
-          <h3 className='text-[20px] font-bold mt-[1rem]'>Research</h3>
-
-          <p className='text-[12px] font-light text-center'>We explore your industry thoroughly, studying competitors to find unique opportunities.</p>
-
-      </div>
-
-      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center'>
-
-          <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
-
-              <div className='bg-[#131313] bg-opacity-80 rounded-full w-[40px] h-[40px] text-[20px] font-bold text-white text-center flex items-center justify-center'>
-                  1
-              </div>
-
-          </div>
-
-          <h3 className='text-[20px] font-bold mt-[1rem]'>Research</h3>
-
-          <p className='text-[12px] font-light text-center'>We explore your industry thoroughly, studying competitors to find unique opportunities.</p>
-
-      </div>
-
-    </div>
+    <FAQs />
 
     </div>
 

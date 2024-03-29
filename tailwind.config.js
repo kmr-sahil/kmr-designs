@@ -6,6 +6,16 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm': '464px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '964px',
+      // => @media (min-width: 1024px) { ... }
+
+      'lg': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
       animation: {
         'loop-scroll': 'loop-scroll 30s linear infinite 2s',
