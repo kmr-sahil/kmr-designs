@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'loop-scroll': 'loop-scroll 30s linear infinite 2s',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0px)' },
+          to: { transform: 'translateX(-250%)' },
+        }
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
