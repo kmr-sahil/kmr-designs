@@ -8,6 +8,9 @@ function Process() {
 
       <h3 className='title-sub text-[14px] mb-[0.75rem] px-[1rem]'>We explore your industry thoroughly, studying competitors to find unique opportunities.</h3>
 
+      <div className='flex flex-col md:flex-row gap-[1rem]'>
+      
+
       <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center gap-[0.5rem]'>
 
           <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
@@ -53,6 +56,8 @@ function Process() {
           <h3 className='title-primary mt-[0.75rem]'>Research</h3>
 
           <p className='title-sub'>Hand off the design only when you're 100% satisfied, and happy to offer ongoing assistance based on your feedback.</p>
+
+      </div>
 
       </div>
       

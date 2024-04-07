@@ -13,14 +13,14 @@
 
 @layer components {
   .btn-primary {
-    @apply px-[1rem] py-[0.5rem] rounded-[8px] outline outline-[1px] outline-[#131313] text-center;
+    @apply px-[1rem] py-[0.5rem] rounded-[8px] outline outline-[1px] outline-[#131313] text-[1rem] md:text-[1.25rem] text-center;
   }
 
   .title-primary {
-    @apply text-[20px] font-bold text-center leading-tight;
+    @apply text-[20px] md:text-[28px] font-bold text-center leading-tight;
   }
 
   .title-sub {
-    @apply text-[12px] font-light tracking-tight leading-tight text-center;
+    @apply text-[12px] md:text-[1rem] font-light tracking-tight leading-tight text-center;
   }
 }

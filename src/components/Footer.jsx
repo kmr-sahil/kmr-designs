@@ -11,8 +11,8 @@ function Footer() {
     <div className='flex flex-col gap-[1rem]'>
 
       <div className='w-[100%] bg-[#131313] text-white p-[1rem] rounded-[8px] flex flex-col gap-[2rem]'>
-        <h1 className='title-primary text-start font-normal'>We assure you of the best and quickest service with us. Let’s make something great together</h1>
-        <Link href={'/'} className='btn-primary bg-white text-[#131313] text-[16px] font-medium'>Book a quick 15 min Call Now</Link>
+        <h1 className='title-primary text-start font-normal md:text-[24px]'>We assure you of the best and quickest service with us. Let’s make something great together</h1>
+        <Link href={'/'} className='btn-primary bg-white text-[#131313] font-medium'>Book a quick 15 min Call Now</Link>
       </div>
 
       <hr className='w-[100%] border-[#131313] my-[0.25rem]'></hr>

@@ -39,7 +39,7 @@ function FAQs() {
         {faqsData.map((faq, index) => (
           <div key={index} className='flex flex-col gap-[0.5rem]' onClick={() => handleQuestionClick(index)}>
             <div className='flex justify-between items-center'>
-              <h3 className='w-[80%] title-sub text-[13px] font-medium text-start'>{faq.question}</h3>
+              <h3 className='w-[80%] title-sub font-medium text-start'>{faq.question}</h3>
               <div className={selectedQuestion === index ? 'rotate-180' : ''}><FaCaretDown /></div>
             </div>
             <p className={`title-sub text-start ${selectedQuestion === index ? '' : 'hidden'}`}>{faq.answer}</p>

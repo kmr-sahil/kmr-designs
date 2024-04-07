@@ -15,11 +15,11 @@ function Pricing() {
 
             <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col justify-center items-start gap-[0.5rem]'>
 
-                <h1 className='title-primary text-[28px]'>$199  
+                <h1 className='title-primary text-[28px] md:text-[32px]'>$199  
                     <span className='title-sub'> / month</span>
                 </h1>
 
-                <p className='title-sub text-start'>standalone project, <br></br>ideally good for single & landing page design</p>
+                <p className='title-sub text-start md:text-[14px]'>standalone project, <br></br>ideally good for single & landing page design</p>
 
                 <hr className='w-[100%] border-[#131313] mt-[0.5rem] mb-[0.75rem]'></hr>
 
@@ -39,11 +39,11 @@ function Pricing() {
 
             <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col justify-center items-start gap-[0.5rem]'>
 
-                <h1 className='title-primary text-[28px]'>$499  
+                <h1 className='title-primary text-[28px] md:text-[32px]'>$499  
                     <span className='title-sub'> / month</span>
                 </h1>
 
-                <p className='title-sub text-start'>subscription based, <br></br>perfect for those who need multipage design</p>
+                <p className='title-sub text-start md:text-[14px]'>subscription based, <br></br>perfect for those who need multipage design</p>
 
                 <hr className='w-[100%] border-[#131313] mt-[0.5rem] mb-[0.75rem]'></hr>
 
