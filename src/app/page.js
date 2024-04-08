@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Work from '@/components/Work';
@@ -13,13 +12,13 @@ function page() {
 
   return (
 
-    <div className='max-w-[40rem] md:max-w-[60rem] mx-auto p-[1rem] md:px-[6rem] flex flex-col gap-[4rem]'>
+    <div className='max-w-[40rem] md:max-w-[60rem] mx-auto p-[1rem] md:px-[4rem] flex flex-col gap-[4rem] md:gap-[5rem] lg:gap-[6rem]'>
 
       <Navbar />
 
-      <section className='mt-[1.5rem] flex flex-col justify-center items-center gap-[1.5rem]'>
+      <section className='mt-[1.5rem] md:mt-[1.8rem] flex flex-col justify-center items-center gap-[1.5rem]'>
 
-          <h1 className='text-[28px] md:text-[32px] font-bold leading-[2rem] text-center'>Crafting engaging websites with meaningful designs that drive results.</h1>
+          <h1 className='text-[28px] md:text-[36px] lg:text-[48px] font-bold leading-[2rem] md:leading-[2.5rem] lg:leading-[3.5rem] text-center'>Crafting engaging websites with meaningful designs that <br className='hidden lg:block'></br> drive results.</h1>
 
           <h3 className='text-[14px] md:text-[18px] font-light tracking-tight leading-tight text-center'>We work with startups, creatives, and visionaries. Through efficient design, we create websites that excel as powerful sales engines, fostering success, engagement, and growth.</h3>
 

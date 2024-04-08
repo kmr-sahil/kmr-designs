@@ -15,9 +15,9 @@ function Footer() {
         <Link href={'/'} className='btn-primary bg-white text-[#131313] font-medium'>Book a quick 15 min Call Now</Link>
       </div>
 
-      <hr className='w-[100%] border-[#131313] my-[0.25rem]'></hr>
+      <hr className='w-[100%] border-[#131313] my-[0.25rem] md:my-[1rem]'></hr>
 
-      <div className='flex flex-col sm:flex-row gap-[1rem] justify-between items-start'>
+      <div className='flex flex-col sm:flex-row gap-[1rem] justify-between items-start mb-[1rem]'>
 
         <div className='flex gap-[0.5rem] items-center justify-center'>
             <Image src={'/logo.png'} width={28} height={10} alt='logo' />

@@ -11,7 +11,7 @@ function Process() {
       <div className='flex flex-col md:flex-row gap-[1rem]'>
       
 
-      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center gap-[0.5rem]'>
+      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-start gap-[0.5rem]'>
 
           <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
 
@@ -27,7 +27,7 @@ function Process() {
 
       </div>
 
-      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center gap-[0.5rem]'>
+      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-start gap-[0.5rem]'>
 
           <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
 
@@ -43,7 +43,7 @@ function Process() {
 
       </div>
 
-      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-center gap-[0.5rem]'>
+      <div className='w-[100%] p-[1rem] rounded-[8px] outline outline-[1px] outline-[#131313] flex flex-col items-center justify-start gap-[0.5rem]'>
 
           <div className='bg-[#131313] rounded-full bg-opacity-40 p-[0.5rem]'>
 
