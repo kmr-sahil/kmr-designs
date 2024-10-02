@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Balancer from "react-wrap-balancer";
 import GridBackground from "@/components/Background";
 import TechStack from "@/components/TechStack";
+import AnimatedHeading from "@/components/Heading";
 
 function page() {
   return (
@@ -21,11 +22,12 @@ function page() {
 
       <section className="relative flex flex-col justify-center items-center gap-[2rem] z-10 py-[2rem]">
         <div className="absolute top-[1rem] w-[100%] h-[100%] bg-[#F5F7F8] rounded-full blur-2xl -z-10 "></div>
-        <h1 className="text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-bold leading-[2.5rem] md:leading-[2.5rem] lg:leading-[4.5rem] text-center p-[0.25rem] bg-gradient-to-tl from-[#575a63] via-[#131313] to-[#131313] bg-clip-text text-transparent">
+        <h1 className="text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-bold leading-[1.2] md:leading-[1.2] lg:leading-[1.2] text-center p-[0.25rem] bg-gradient-to-tl from-[#575a63] via-[#131313] to-[#131313] bg-clip-text text-transparent">
           <Balancer>
-            Crafting engaging websites with meaningful designs that drive
-            results.
+            Crafting engaging websites with meaningful designs that{" "}
           </Balancer>
+
+          <AnimatedHeading />
         </h1>
 
         <h3 className="text-[14px] md:text-[18px] font-light tracking-tight leading-tight text-center">
