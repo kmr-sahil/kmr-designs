@@ -77,7 +77,7 @@ If you require longer-term support, we also offer extended maintenance plans to 
         </div>
       </div>
 
-      <div className="flex-grow md:max-w-[30rem] bg-[#41444B] text-white p-[1rem] md:p-[2rem] rounded-[16px] flex flex-col gap-[2rem]">
+      <div className="flex-grow md:max-w-[30rem] bg-gradient-to-bl from-[#131313] via-[#41444B] to-[#131313] text-white p-[1rem] md:p-[2rem] rounded-[16px] flex flex-col gap-[2rem]">
         <h1 className="text-[1.25rem] md:text-[2rem] font-medium leading-tight text-start">
           We assure you of the best and quickest service with us. Let’s make
           something great together

@@ -21,20 +21,20 @@ function page() {
 
       <section className="relative flex flex-col justify-center items-center gap-[2rem] z-10 py-[2rem]">
         <div className="absolute top-[1rem] w-[100%] h-[100%] bg-[#F5F7F8] rounded-full blur-2xl -z-10 "></div>
-        <Balancer>
-          <h1 className="text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-bold leading-[2.5rem] md:leading-[2.5rem] lg:leading-[4.5rem] text-center p-[0.25rem] bg-gradient-to-tl from-[#575a63] via-[#131313] to-[#131313] bg-clip-text text-transparent">
+        <h1 className="text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-bold leading-[2.5rem] md:leading-[2.5rem] lg:leading-[4.5rem] text-center p-[0.25rem] bg-gradient-to-tl from-[#575a63] via-[#131313] to-[#131313] bg-clip-text text-transparent">
+          <Balancer>
             Crafting engaging websites with meaningful designs that drive
             results.
-          </h1>
-        </Balancer>
+          </Balancer>
+        </h1>
 
-        <Balancer>
-          <h3 className="text-[14px] md:text-[18px] font-light tracking-tight leading-tight text-center">
+        <h3 className="text-[14px] md:text-[18px] font-light tracking-tight leading-tight text-center">
+          <Balancer>
             We work with startups, creatives, and visionaries. Through efficient
             design, we create websites that excel as powerful sales engines,
             fostering success, engagement, and growth.
-          </h3>
-        </Balancer>
+          </Balancer>
+        </h3>
 
         <Link
           href={"facebook.com"}
