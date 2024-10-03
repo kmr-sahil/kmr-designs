@@ -6,7 +6,7 @@ import Link from "next/link";
 function FAQs() {
   const faqsData = [
     {
-      question: "How Long Does a Project Take ?",
+      question: "How Long Does a Project Take?",
       answer: `The timeline for each project depends on the package you choose:
 
 $299 Basic Package: Typically takes 1-2 weeks. This includes 1 landing page and 4 custom pages with basic design and functionality, along with 1 round of revisions.
@@ -18,9 +18,9 @@ Custom Pricing Enterprise Package: The timeline for custom projects varies based
 We work closely with you throughout the process to ensure timely delivery without compromising quality.`,
     },
     {
-      question: "Can I Request Additional Features After the Project Begins ?",
+      question: "Can I Request Additional Features After the Project Begins?",
       answer:
-        "Yes, you can request additional features even after the project has started. However, any changes or additions outside of the agreed-upon scope may affect the timeline and cost. We’ll evaluate your request and provide you with a clear estimate for any extra work before proceeding.",
+        "Yes, you can request additional features even after the project has started. However, any changes or additions outside of the agreed-upon scope may affect the timeline and cost. We&apos;ll evaluate your request and provide you with a clear estimate for any extra work before proceeding.",
     },
     {
       question: "Do You Offer Support After the Website is Launched?",
@@ -79,7 +79,7 @@ If you require longer-term support, we also offer extended maintenance plans to 
 
       <div className="flex-grow md:max-w-[30rem] bg-gradient-to-bl from-[#131313] via-[#41444B] to-[#131313] text-white p-[1rem] md:p-[2rem] rounded-[16px] flex flex-col gap-[2rem]">
         <h1 className="text-[1.25rem] md:text-[2rem] font-medium leading-tight text-start">
-          We assure you of the best and quickest service with us. Let’s make
+          We assure you of the best and quickest service with us. Let&apos;s make
           something great together
         </h1>
         <Link

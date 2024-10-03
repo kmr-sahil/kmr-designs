@@ -81,10 +81,10 @@ function Pricing() {
       <div className="w-[100%] p-[1rem] rounded-[16px] outline outline-[6px] outline-[#D1D4D5] flex flex-col justify-center items-start gap-[0.5rem]">
         <div className="w-[100%]">
           <h1 className="text-[20px] md:text-[2rem] font-medium text-start mb-[0.75rem]">
-            Couldn't find a perfect plan?
+            Couldn&apos;t find a perfect plan?
           </h1>
           <p className="title-sub text-start sm:pr-[2rem]">
-            If your project doesn't fit the plans mentioned, or if you'd like to
+            If your project doesn&apos;t fit the plans mentioned, or if you&apos;d like to
             discuss before deciding, schedule a call with us. We promise to find
             a way to work together.
           </p>
@@ -93,7 +93,7 @@ function Pricing() {
           href="/f"
           className="btn-primary sm:w-[10rem] mt-[1rem] text-white bg-[#41444B]"
         >
-          Let's Discuss
+          Let&apos;s Discuss
         </Link>
       </div>
     </section>
