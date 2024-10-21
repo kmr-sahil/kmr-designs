@@ -39,12 +39,14 @@ function page() {
           </Balancer>
         </h3>
 
-        <Link
-          href={"facebook.com"}
-          className=" px-[1.5rem] py-[0.5rem] rounded-[8px] outline outline-[8px] outline-[#e2e2e2] bg-gradient-to-br from-[#131313] via-[#41444B] to-[#131313] md:text-[1.25rem] font-medium text-white"
-        >
-          Book a free Call
-        </Link>
+        <div className="bg-gradient-to-b from-[#f6f6f6] via-[#f6f6f6] to-[#e8e6e656] shadow-[inset_0_6px_15px_0px_rgba(0,0,0,0.075)] p-[1rem] rounded-[16px] flex items-center justify-center">
+          <Link
+            href={"facebook.com"}
+            className=" px-[1.5rem] py-[0.5rem] rounded-[8px] bg-gradient-to-br from-[#131313] via-[#41444B] to-[#131313] md:text-[1.25rem] font-medium text-white"
+          >
+            Book a free Call
+          </Link>
+        </div>
       </section>
 
       {/* <Work /> */}
