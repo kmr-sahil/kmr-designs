@@ -80,7 +80,7 @@ export function GridBackground({
     <div className={cn("relative w-full", className)} {...props}>
       <div
         ref={containerRef}
-        className="absolute inset-0 md:h-[40rem] h-[10rem] overflow-hidden"
+        className="absolute inset-0 md:h-[40rem] h-[40rem] overflow-hidden"
       >
         <svg className="w-full h-full">
           <rect width="100%" height="100%" fill="url(#grid-pattern)" />

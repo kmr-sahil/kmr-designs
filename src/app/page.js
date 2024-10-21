@@ -19,6 +19,7 @@ function page() {
         <GridBackground />
       </div>
       <Navbar />
+      <div className="h-[50px]"></div>
 
       <section className="relative flex flex-col justify-center items-center gap-[2rem] z-10 py-[0rem]">
         <div className="absolute top-[1rem] w-[100%] h-[100%] bg-[#F5F7F8] rounded-full blur-2xl -z-10 "></div>
